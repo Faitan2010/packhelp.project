@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #2F2F2F;
+}
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+body {
+    max-width: 1440px;
+    padding-bottom: 150px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1056px;
+    padding-bottom: 14px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-item {
+    margin-right: 40px;
+    display: block;
+}
+.language {
+    margin-right: 40px;
+    display: block;
+}
+.end-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subheader {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+.subheader-items {
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 28px;
+    padding-right: 22px;
+}
+.subheater-item-text {
+    padding-left: 8px;
+}
+.background-fone {
+    max-width: 1440px;
+    background-color: #F8F8F8;
+    margin-bottom: 25px;
+}
+.first-design-block {
+    max-width: 1056px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 160px;
+    padding-bottom: 57px;
+}
+.stock {
+    background-color: #EEAB1D;
+    background-image: url(./img/line.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    margin-bottom: 82px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main-text {
+    font-size: 72px;
+    padding-bottom: 33px;
+    padding-top: 64px;
+}
+.additional-text {
+    font-size: 23px;
+    color: #2F2F2F;
+    padding-bottom: 33px;
+}
+.shop-button {
+    width: 191px;
+    height: 64px;
+    background-color: #3B61FF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+}
+.design-block-info {
+    position: relative;
+    height: 507px;
+}
+.main-image {
+    position: absolute;
+    left: 620px;
+    top: 0
+}
+.stock-text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+.describe-header {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.describe-site {
+    max-width: 1056px;
+    position: relative;
+    margin: 0 auto;
+}
+.describe-blocks {
+    display: flex;
+    column-gap: 16px; 
+    position: relative;
+}
+.first-describe-block {
+    width: 50%;
+    background-color: #F8F8F8;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    height: 488px;
+    margin-bottom: 24px;
+}
+.second-describe-block {
+    width: 50%;
+    background-color: #F8F8F8;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
+    height: 488px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.first-describe-header {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.first-describe-list {
+    font-size: 24px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    position: relative;
+}
+.first-describe-list::before {
+    content:"";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    display: block;
+    left: 0;
+    top: 11px;
+}
+.first-describe-button {
+    height: 48px;
+    background-color: #3B61FF ;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100px;
+}
+.first-block-image {
+    display: block;
+    position: absolute;
+    right: 17px;
+    bottom: -5px;
+}
+.second-block-image {
+    display: block;
+    position: absolute;
+    right: 1px;
+    bottom: -5px;
+}
+.third-describe-block {
+    padding-top: 32px;
+    background-color: #E4F1FB;
+    position: relative;
+}
+.third-describe-header {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.third-describe-list {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.third-describe-link {
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 32px;
+}
+.third-block-image {
+position: absolute;
+display: block;
+bottom: 0;
+left: -42px;
+}
