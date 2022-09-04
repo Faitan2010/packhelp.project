@@ -30,7 +30,7 @@
     </div>
     <div class="background-fone">
         <div class="subheader">
-            <div class="subheader-items"><img src="./img/heart.svg" alt=""><p class="subheater-item-text">22,263 Happy Customers</p></div>
+            <div class="subheader-items" tabindex="2"><img src="./img/heart.svg" alt=""><p class="subheater-item-text">22,263 Happy Customers</p></div>
             <div class="subheader-items"><img src="./img/car.svg" alt=""><p class="subheater-item-text">Free shipping from €300</p></div>
             <div class="subheader-items"><img src="./img/clean.svg" alt=""><p class="subheater-item-text">Fully customizable</p></div>
         </div>
@@ -246,14 +246,31 @@
             </p>
         </div>
         <div class="europa-brand-form">
-            <p>
-                Stay updated with our packaging news.
-            </p>
-            <input type="text" name="email" id=""placeholder="E-mail">
-            <p>
-                I agree to Packhelp.com Terms and Conditions and Privacy Policy.
-            </p>
-            <button>Subscribe</button>
+            <form action="#">
+                <p>
+                    Stay updated with our packaging news.
+                </p>
+                <div class="europa-brand-form__form-field">
+                    <label for="email" class="europa-brand-form__label">
+                        <input type="text"
+                               class="europa-brand-form__input"
+                               name="email"
+                               id="email"
+                               placeholder="E-mail">
+                    </label>
+                </div>
+                <div class="europa-brand-form__form-field">
+                    <label for="confirm" class="europa-brand-form__label">
+                        <input type="checkbox"
+                               class="europa-brand-form__input confirm"
+                               name="confirm"
+                               id="confirm">
+
+                        <span class="europa-brand-form__input_confirm-text">I agree to Packhelp.com Terms and Conditions and Privacy Policy.</span>
+                    </label>
+                </div>
+                <button>Subscribe</button>
+            </form>
         </div>
     </div>
     <div class="ecology">

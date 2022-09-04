@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -684,4 +686,56 @@ letter-spacing: 0em;
 }
 .footer-text-first {
     text-transform: uppercase;
+}
+
+/*TODO: change me*/
+.europa-brand-form__form-field {
+    margin-bottom: 20px;
+}
+
+.europa-brand-form__label {
+    display: block;
+}
+
+.europa-brand-form__input.confirm {
+    display: none;
+}
+
+.europa-brand-form__input_confirm-text {
+    position: relative;
+    display: block;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.europa-brand-form__input_confirm-text:before,
+.europa-brand-form__input_confirm-text:after {
+    position: absolute;
+    content: '';
+}
+
+.europa-brand-form__input_confirm-text:before {
+    background: #FFFFFF;
+    content: '';
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.europa-brand-form__input_confirm-text:after {
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjI1ODMgMEw5LjA3NSAxMi4yTDEuNzQxNjcgNC4yTDAgNi4xTDkuMDc1IDE2TDIyIDEuOUwyMC4yNTgzIDBaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K');
+    width: 22px;
+    height: 16px;
+    display: block;
+    left: 1px;
+    top: 4px;
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.europa-brand-form__input.confirm:checked + .europa-brand-form__input_confirm-text:after {
+    opacity: 1;
 }
