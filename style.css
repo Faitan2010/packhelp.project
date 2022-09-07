@@ -15,6 +15,14 @@
     position: relative;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -61,8 +69,6 @@ body {
 .subheader {
     display: flex;
     justify-content: flex-start;
-    max-width: 1056px;
-    margin: 0 auto;
 }
 
 .subheader-items {
@@ -82,7 +88,7 @@ body {
 }
 
 .first-design-block {
-    max-width: 1056px;
+
     margin: 0 auto;
     position: relative;
     margin-bottom: 160px;
@@ -147,9 +153,7 @@ body {
 }
 
 .describe-site {
-    max-width: 1056px;
     position: relative;
-    margin: 0 auto;
 }
 
 .describe-blocks {
@@ -493,7 +497,7 @@ padding-top: 16px;
 }
 .brands {
     margin: 0 auto;
-    max-width: 1056px;
+
 }
 .brand-text {
     font-family: Roboto;
@@ -505,11 +509,11 @@ text-align: left;
 }
 .image-block {
     margin: 0 auto;
-    max-width: 1056px;
+
     padding-bottom: 85px;
 }
 .europa-brands {
-    max-width: 1056px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 21px;
@@ -582,7 +586,7 @@ text-decoration-line: underline;
     object-position: center;
 }
 .ecology {
-    max-width: 1056px;
+
     display: flex;
     margin: 0 auto;
     margin-top: 96px;
@@ -946,7 +950,7 @@ text-align: left;
         font-size: 18px;
     }
     .third-describe-list {
-        font-size: 18px; 
+        font-size: 18px;
     }
     .main-text {
         padding-top: 20px;
