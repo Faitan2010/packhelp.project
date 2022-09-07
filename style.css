@@ -935,6 +935,13 @@ text-align: left;
     }
 }
 @media (max-width: 768px){
+    .stock {
+        background-image: unset;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% + 40px);
+        margin-left: -20px;
+    }
     .third-block-image {
         position: relative;
         display: block;
