@@ -501,11 +501,24 @@ padding-top: 16px;
 }
 .brand-text {
     font-family: Roboto;
-font-size: 72px;
-font-weight: 400;
-line-height: 80px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.second-describe-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 2px solid black;
+    width: 162px;
+    height: 48px;
+    margin-top: 24px;
+
 }
 .image-block {
     margin: 0 auto;
@@ -643,9 +656,52 @@ margin-right: 48px;
     margin-right: 16px;
     padding-left:  48px;
 }
+.form-text {
+        font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 16px;
+}
+.europa-brand-form__input {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 8px;
+    padding-left: 28px;
+    border-radius: 2px;
+    border: 1px solid #E7E7E7;
+}.europa-brand-form__input_confirm-text {
+    margin-bottom: 8px;
+}
+.europa-brand-form {
+    background-color: #F8F8F8;
+    position: relative;
+    background-image: url(./img/Frame\ \(11\).png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 85px 40px;
+}
+.form-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #3B61FF;
+    width: 100%;
+    height: 48px;
+    color: white;
+
+}
 .choose {
     margin-top: 160px;
-    margin-bottom: 160px;
+}
+hr {
+    margin-top: 160px;
+    margin-bottom: 49px;
 }
 .choose-flex-block {
     display: flex;
@@ -692,12 +748,6 @@ letter-spacing: 0em;
 .footer-text-first {
     text-transform: uppercase;
 }
-
-/*TODO: change me*/
-.europa-brand-form__form-field {
-    margin-bottom: 20px;
-}
-
 .europa-brand-form__label {
     display: block;
 }
@@ -775,9 +825,15 @@ font-size: 12px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
-text-align: left;
-
+text-align: left; 
 }
+.card-link {
+    padding-right: 5px;
+}
+.card-link:last-child{
+    padding-right: 0;
+}
+
 @media (max-width: 1280px) {
     .gallery__text {
         padding-left: 40px;
@@ -954,10 +1010,10 @@ text-align: left;
         text-align: center;
     }
     .first-describe-list {
-        font-size: 18px;
+        font-size: 16px;
     }
     .third-describe-list {
-        font-size: 18px;
+        font-size: 16px;
     }
     .main-text {
         padding-top: 20px;
@@ -1000,5 +1056,53 @@ text-align: left;
     }
     .choose-header {
         font-size: 30px;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .europa-brand-form {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 640px) {
+    .subheater-item-text {
+        font-size: 12px;
+    }
+    .describe-blocks {
+        display: block;
+        width: 100%;
+    }
+    .first-describe-block {
+        width: 100%;
+    }
+    .second-describe-block {
+        width: 100%;
+    }
+    .gallery__text {
+        padding-left: 25px;
+        padding-right: 0px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .subheader-items {
+        padding-right: 0px;
+    }
+    .main-image {
+        max-width: 100%;
+    }
+    .ecologe-image {
+        max-width: 100%;
+        display: block;
+    }
+    .ecology-block {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ecology-block:first-child {
+        padding-left: 20px;
+    }
+    .ecology-block:first-child {
+        padding-left: 20px;
     }
 }
